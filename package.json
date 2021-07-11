@@ -1,11 +1,13 @@
 {
   "name": "rgb-hex-converter",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:mdhnpm/rgb-hex-converter.git",
   "author": "mydatahack",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "watch:build": "tsc --watch",
     "lint-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --quiet",
     "fix-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix --quiet",
     "test": "jest"

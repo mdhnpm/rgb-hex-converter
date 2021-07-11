@@ -8,3 +8,28 @@ The RGB model uses a value between `0` and `255` for each color for red, green a
 
 For example, the color black is represented as `(255, 255, 255)` with RGB and `#FFFFFF` with Hex.
 
+## When do you want to use it?
+
+Whenever you need to convert RGV to Hexadecimal or vice versa.
+## Examples
+
+There are two functions: `convertRgbToHex` & `convertHexToRgb`.
+
+```js
+import { convertRgbToHex, convertHexToRgb } from '@mdhnpm/rgb-hex-converter';
+
+```
+
+`convertRgbToHex` will take three RGB values as input and returns string of Hex.
+
+```js
+convertRgbToHex(0, 255, 0); // returns '00ff00'
+```
+
+`convertHexToRgb` takes a string value of Hex (prefixed with or without #) and returns an array of RGB.
+
+```js
+convertHexToRgb('#00ff00'); // returns [0, 255, 0]
+
+convertHexToRgb('fc41ef'); // returns [252, 65, 239]
+```
