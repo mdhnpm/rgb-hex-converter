@@ -1,0 +1,22 @@
+{
+  "name": "rgb-hex-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mdhnpm/rgb-hex-converter.git",
+  "author": "mydatahack",
+  "license": "MIT",
+  "scripts": {
+    "lint-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --quiet",
+    "fix-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix --quiet",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
