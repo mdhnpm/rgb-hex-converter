@@ -14,7 +14,9 @@
     "utility"
   ],
   "scripts": {
-    "build": "tsc",
+    "clean": "rimraf dist",
+    "build": "yarn clean ; tsc",
+    "check-types": "tsc --noEmit",
     "watch:build": "tsc --watch",
     "lint-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --quiet",
     "fix-js": "eslint 'src/**/*.{ts,tsx,js,jsx}' --fix --quiet",
