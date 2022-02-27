@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mdhnpm/rgb-hex-converter/compare/v1.1.0...v1.2.0) (2022-02-27)
+
+
+### Features
+
+* **types:** remove test files from the build product ([6d8eea6](https://github.com/mdhnpm/rgb-hex-converter/commit/6d8eea60e304750ff56c63f6f39097e65380f106))
+
 # [1.1.0](https://github.com/mdhnpm/rgb-hex-converter/compare/v1.0.0...v1.1.0) (2022-02-27)
 
 
