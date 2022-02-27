@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/mdhnpm/rgb-hex-converter/compare/v1.0.0...v1.1.0) (2022-02-27)
+
+
+### Features
+
+* **ci:** fixing unit test ([d2eec8c](https://github.com/mdhnpm/rgb-hex-converter/commit/d2eec8c5198f8da6dfaa8dd7611186f3c44f4c04))
+* **ts:** triggering a new release ([35975cc](https://github.com/mdhnpm/rgb-hex-converter/commit/35975cce20cfd38b108b69be1398bf43e0a702b1))
+
 # 1.0.0 (2022-02-27)
 
 
