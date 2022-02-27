@@ -1,9 +1,8 @@
-
 export const convertRgbToHex = (red: number, green: number, blue: number) => {
   if (isValidRgb(red, green, blue)) {
     return returnHex(red) + returnHex(green) + returnHex(blue);
   } else {
-    throw new Error('Input is not valid RGB');
+    throw new Error("Invalid RGB input");
   }
 };
 
@@ -23,7 +22,7 @@ const isValidNumber = (value: number) => {
 
 const returnHex = (value: number) => {
   if (value < 10) {
-    return '0' + value.toString(16);
+    return "0" + value.toString(16);
   } else {
     return value.toString(16);
   }
