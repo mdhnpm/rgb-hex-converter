@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "dist",
     "moduleResolution": "node",
     "sourceMap": true,
     "noImplicitAny": true,
